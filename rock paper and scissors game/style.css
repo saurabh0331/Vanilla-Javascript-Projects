@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.btns{
+  
+    width: 360px;
+    height: 35px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px;
+}
+
+.btns input{
+    margin: 10px;
+    height: 35px;
+    width: 150px;
+    background-color: rgb(16, 101, 130);
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 1.2rem;
+
+}
+
+.img-container img{
+    position: absolute;
+    left: 42.5%;
+    top: 10%;
+    border-radius: 20px;
+}
+
+.main-container{
+    /* background: url(bkg.jpg); */
+    
+    /* background-size: cover;
+   
+    background-position: center; */
+    display: flex;
+  justify-content: center;
+  align-items: center;
+    border: 2px solid black;
+    height: 95vh;
+    width: 50%;
+    border-radius: 20px;
+}
+
+#bkg-img{
+    position: absolute;
+    height: 95vh;
+    width: 50%;
+    top: 20px;
+    left: 385px;
+    z-index: -10;
+    opacity: 0.5;
+    border-radius: 20px;
+}
+
+.head{
+    position: absolute;
+    left: 35%;
+    top: 30px;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.main-container h2{
+    position: absolute;
+   top: 42.5vh;
+   background-color: lime;
+   border-radius: 10px;
+   color: rgb(39, 5, 71);
+    
+}
+
+.computer-choice h2{
+    position: absolute;
+    top: 65vh;
+    right: 39.5%;
+}
+
+.computer-choice h3{
+    position: absolute;
+    top: 70vh;
+    right: 48%;
+    font-size: 1.5rem;
+    
+}
+
+.your-choice h2{
+    position: absolute;
+    top: 55vh;
+    right: 43%;
+}
+
+.your-choice h3{
+    position: absolute;
+    top: 60vh;
+    right: 46.5%;
+    font-size: 1.5rem;
+   
+}
+
+.all-result{
+    position: absolute;
+    top: 80vh;
+    left: 44%;
+    font-size: 3rem;
+}

@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#grid{
+    height: 300px;
+    width: 300px;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+    position: absolute;
+    top: 5vh;
+
+    left: 20vw;
+    padding: 20px 20px;
+}
+
+#grid img{
+    height: 200px;
+    width: 200px;
+}
+
+#score{
+  display: flex;
+  justify-content: center;
+
+}
